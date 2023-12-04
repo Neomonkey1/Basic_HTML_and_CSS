@@ -6,3 +6,22 @@ h1 {
     margin-left: 100px;
     text-shadow: 1px .5px 4px rgba (0, 0, 0, 0.6);
 }
+.container{
+    width: 450px;
+    height: 450px;
+    background-color: #faebd7;
+    border: 2px soolid black;
+    border-radius: 5%;
+}
+/* select all squares in the array */
+.container .squares :nth-child(-n+4){
+    background-image: url("../images/icons/moon_image_3.jpg");
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
+}
