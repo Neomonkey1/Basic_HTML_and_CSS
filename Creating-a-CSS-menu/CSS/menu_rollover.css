@@ -1,13 +1,13 @@
-body {
+body{
     background: #184352;
 }
-.wrap {
+.wrap{
     top: 0;
     left: 0;
     height: auto;
     width: 100%;
 }
-.menu-container {
+.menu-container{
     top: 0;
     left: 0;
     /*To the top edge of the screen*/
@@ -15,7 +15,7 @@ body {
     width: 100%;
     background-color: #184352;
 }
-.menu {
+.menu{
     font: bold 12px/18px sans-serif;
     text-align: center;
     display: inline;
@@ -23,7 +23,7 @@ body {
     padding: 0;
     list-style: none;
 }
-.menu li {
+.menu li{
     color: #b3b3b3;
     display: inline-block;
     margin-right: -2px;
@@ -34,7 +34,7 @@ body {
     background-color: #387593;
     cursor: pointer;
 }
-.menu li:hover {
+.menu li:hover{
     background-color: #5eafdf;
     color: #fff;
 }
@@ -45,7 +45,7 @@ body {
     This also avoids a block-level bug*/
     visibility: visible;
 }
-.submenu {
+.submenu{
     padding: 0;
     left: 0;
     position: absolute;
