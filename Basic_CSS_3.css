@@ -16,7 +16,7 @@ h1{
 }
 /* SELECT ALL SQUARES IN THE ARRAY */
 .container .squares:nth-child(-n+4){
-    background-image:url("../Basic_HTML_and_CSS/Lunar_Hotel/Images/Icons/icon_1.png");
+    background-image:url("Lunar_Hotel/Images/Icons/icon_1.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -51,7 +51,7 @@ text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
 }
 /* HOVER, TRANSLATE & TRANSFORM EFFECTS*/
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("../Basic_HTML_and_CSS/Lunar_Hotel/Images/Icons/icon_2.png");
+    background-image: url("Lunar_Hotel/Images/Icons/icon_2.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -74,7 +74,7 @@ text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url("../Basic_HTML_and_CSS/Lunar_Hotel/Images/Icons/icon_2.png")
+        background-image: url("Lunar_Hotel/Images/Icons/icon_2.png")
         }
         50% {
             transform: translateY(300px);
