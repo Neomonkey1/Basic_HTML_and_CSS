@@ -124,10 +124,10 @@ section{
 #home{
     background: url(../Images/Thumb/The_Moon.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: cover; /* this is used for older browsers */
+    -moz-background-size: cover; /* this is used for older browsers */
+    -o-background-size: cover; /* this is used for older browsers */
+    background-size: cover; /* this covers modern browsers. These four do the same thing basically */
     width: 100%;
     display: block;
     height: auto;
