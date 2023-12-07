@@ -287,3 +287,37 @@ section{
     background-color: #8d8e8f;
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
 }
+/* FOOTER STYLES */
+#footer{
+    background-color: rgba(100, 65, 0, .3);
+    color: #000;
+    text-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 1);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+}
+/* @MEDIA QUERIES */
+@media all and (max-width: 640px) and (min-width: 381px){
+    .head-main{
+        font-size: 28px;
+    }
+}
+@media all and (max-width: 381px) and (min-width: 200px){
+    .head-main{
+        font-size: 24px;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+}
