@@ -293,7 +293,7 @@ section{
     color: #000;
     text-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 1);
     padding: 20px 50px 20px 50px;
-    text-align: right;
+    text-align: center;
 }
 /* @MEDIA QUERIES */
 @media all and (max-width: 640px) and (min-width: 381px){
