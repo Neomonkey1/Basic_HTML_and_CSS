@@ -5,6 +5,10 @@ h1{
     color: darkred;
     text-align: center;
 }
+h2{
+    color: chocolate;
+    text-align: center;
+}
 p{
     text-align: center;
     color: green;
@@ -17,4 +21,51 @@ img{
     width: 50%;
     border-radius: 15px;
     filter: brightness(125%);
+}
+footer{
+    font-weight: bolder;    
+}
+#family{
+    border-collapse: collapse;
+    width: 100%;
+}
+#family td, #family th{
+border: 2px solid red;
+}
+#family th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: blue;
+    color: aliceblue;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: azure;    
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navbar{
+    overflow: hidden;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100%;    
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: darkgray;
+    color: black;
 }
