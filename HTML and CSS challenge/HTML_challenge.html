@@ -6,14 +6,68 @@
         <link rel="stylesheet" href="./CSS/CSS_challenge.css">
     </head>
     <body>
-        <h1>HTML and CSS Challenge!</h1>        
-        <img src="./Img/5.jpg" alt="family photo" style="width: 300px; height: 200px;">
-        <p>Here is a family picture.</p>
-        <p>Used CSS to center Image and text, rounded the border of the photo and added 125% brightness.<br>
-        Also for fun added text colors.</p>
+        <!--navbar-->
+        <div class="navbar">
             
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+        <!--end navbar-->
+        <h1>HTML and CSS Challenge!</h1>
+        <!--Family photo with rounded border--> 
+        <div>       
+            <img id="home" src="./Img/5.jpg" alt="family photo" style="width: 300px; height: 200px;">
+            <p>Here is a family picture.</p>
+            <p>Used CSS to center Image and text, rounded the border of the photo and added 125% brightness.<br>
+            Also for fun added text colors.</p>
+        </div>
+        <!--end family photo with rounded border-->
+        <!--Family photo with text over the image-->
+        <div class="container">
+            <img src="./Img/6.jpg" alt="family photo 2" style="width:500px; height:600px;">
+            <div class="center">The Harrison Family</div>
+        </div>
+        <!--end Family photo with text over the image-->
+        <!--Making a table-->
+        <h2 id="about">Family Table</h2>
             
-    
+        <table id="family">
+            <tr>
+                <th>Name</th>
+                <th>Relationship</th>
+                <th>Going to School</th>
+            </tr>
+            <tr>
+                <td>Raymond</td>
+                <td>Father</td>
+                <td>Yes</td>                
+            </tr>
+            <tr>
+                <td>Brandi</td>
+                <td>Mother</td>
+                <td>No</td>            
+            </tr>
+            <tr>
+                <td>Luke</td>
+                <td>Son</td>
+                <td>Yes</td>                
+            </tr>
+            <tr>
+                <td>Elijah</td>
+                <td>Son</td>
+                <td>No</td>
+            </tr>
+
+        </table>    
+    <!--end of Making a table-->
     
     </body>
+    <!--Adding a footer-->
+    <footer id="contact">
+        <p>Author: Raymond Harrison</p>
+        <p><a href="mailto:rayharrison8181@gmail.com">rayharrison8181@gmail.com</a></p>
+    </footer>
+    <!--end of footer-->
 </html>
