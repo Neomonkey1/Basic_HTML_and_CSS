@@ -16,7 +16,7 @@ p{
 p:hover{
     color: black;
 }
-
+/* img will have rounded borders*/
 img{
     display: block;
     margin-left: auto;
@@ -28,6 +28,7 @@ img{
 footer{
     font-weight: bolder;    
 }
+/* below is for the table section*/
 #family{
     border-collapse: collapse;
     width: 100%;
@@ -42,6 +43,7 @@ border: 2px solid red;
     background-color: blue;
     color: aliceblue;
 }
+/* below is for the second img*/
 .container{
     position: relative;
     text-align: center;
@@ -86,6 +88,7 @@ border: 2px solid red;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+/* end of image overlay*/
 .navbar{
     overflow: hidden;
     background-color: gray;
@@ -120,4 +123,12 @@ border: 2px solid red;
     display: table;
     clear: both;
     margin-top: 15px;
+}
+/*below is for the video to center it*/
+.centers{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: block;
 }
