@@ -1,5 +1,6 @@
 body{
     background-color: aliceblue;
+    color: green;
 }
 h1{
     color: darkred;
@@ -10,8 +11,10 @@ h2{
     text-align: center;
 }
 p{
-    text-align: center;
-    color: green;
+    text-align: center;   
+}
+p:hover{
+    color: black;
 }
 
 img{
@@ -42,12 +45,45 @@ border: 2px solid red;
 .container{
     position: relative;
     text-align: center;
-    color: azure;    
+    color: azure;
+    width: 100%;    
 }
 .center{
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*adding overlay to img here*/
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: aliceblue;
+}
+.container:hover .overlay{
+    opacity: 1;
+}
+.text{
+    color: crimson;
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 .navbar{
@@ -68,4 +104,20 @@ border: 2px solid red;
 .navbar a:hover{
     background-color: darkgray;
     color: black;
+}
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 15px;
+    height: 200px;
+    color: chartreuse;
+}
+.row{
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 15px;
 }
