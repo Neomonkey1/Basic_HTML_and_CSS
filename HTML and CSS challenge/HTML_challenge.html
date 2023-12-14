@@ -21,15 +21,25 @@
             <img id="home" src="./Img/5.jpg" alt="family photo" style="width: 300px; height: 200px;">
             <p>Here is a family picture.</p>
             <p>Used CSS to center Image and text, rounded the border of the photo and added 125% brightness.<br>
-            Also for fun added text colors.</p>
+            Also for fun added text colors and hover effect color.</p>
         </div>
         <!--end family photo with rounded border-->
-        <!--Family photo with text over the image-->
-        <div class="container">
-            <img src="./Img/6.jpg" alt="family photo 2" style="width:500px; height:600px;">
-            <div class="center">The Harrison Family</div>
+        <!--adding video here-->
+        <div>
+            <h2>Here is a video.</h2>
+            <video autoplay muted loop> <source src="./Img/lighted_christmas_tree (Original).mp4" type="video/mp.4"> </video>
         </div>
-        <!--end Family photo with text over the image-->
+        <!--end of video here-->
+        <!--Family photo with text over the image-->
+        <!--also adding overlay fade to image-->
+        <div class="container">
+            <img src="./Img/6.jpg" alt="family photo 2" class="image" style="max-width:500px; max-height:600px;">
+            <div class="center">The Harrison Family</div>
+            <div class="overlay">
+                <div class="text">Merry Christmas!</div>
+            </div>
+        </div>
+        <!--end Family photo with text over the image and overlay fade-->
         <!--Making a table-->
         <h2 id="about">Family Table</h2>
             
@@ -62,7 +72,22 @@
 
         </table>    
     <!--end of Making a table-->
-    
+
+    <!--Making Column layout-->
+        <div class="row">
+            <div class="column" style="background-color: cornflowerblue;">
+                <h3>Boys</h3>
+                <p>Raymond<br> Luke<br> Elijah</p>
+            </div>
+            <div class="column" style="background-color: coral;">
+                <h3>Girls</h3>
+                <p>Brandi</p>
+            </div>
+                 
+
+        </div>
+
+    <!--end of Column layout-->
     </body>
     <!--Adding a footer-->
     <footer id="contact">
