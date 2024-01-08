@@ -87,3 +87,86 @@
 .photo:hover img{
     transform: scale(1.2);
 }
+
+/* MODAL */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.row > .column{
+    padding: 0 8px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column{
+    float: left;
+    width: 11%;
+}
+/* Modal background */
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #fff;
+}
+/* Modal content*/
+.modal-content{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+/* The close button*/
+.close{
+    color: #000;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus{
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mySlides{
+    display: none;
+}
+.cursor{
+    cursor: pointer;
+}
+
+/* Next and pervious buttons */
+.prev,
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50%;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
