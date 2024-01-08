@@ -39,8 +39,8 @@
 					<!--PHOTO CONTAINER 1-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_1.jpg" alt="">
-							<div class="photo-overlay">
+							<img src="./Images/Thumb/thumbnail_1.jpg" alt="Astronaut">
+							<div class="photo-overlay" onclick="openModal();currentSlide(1)">
 								<h3>Click to Enlarge</h3>
 								<p>Make your stay out of your WORLD!</p>
 							</div>
@@ -51,8 +51,8 @@
 					<!--PHOTO CONTAINER 2-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_2.jpg" alt="">
-							<div class="photo-overlay">
+							<img src="./Images/Thumb/thumbnail_2.jpg" alt="Moon">
+							<div class="photo-overlay" onclick="openModal();currentSlide(2)">
 								<h3>Click to Enlarge</h3>
 								<p>Make your stay out of your WORLD!</p>
 							</div>
@@ -63,8 +63,8 @@
 					<!--PHOTO CONTAINER 3-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_3.jpg" alt="">
-							<div class="photo-overlay">
+							<img src="./Images/Thumb/thumbnail_3.jpg" alt="Phases of the moon">
+							<div class="photo-overlay" onclick="openModal();currentSlide(3)">
 								<h3>Click to Enlarge</h3>
 								<p>Make your stay out of your WORLD!</p>
 							</div>
@@ -75,8 +75,8 @@
 					<!--PHOTO CONTAINER 4-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_4.jpg" alt="">
-							<div class="photo-overlay">
+							<img src="./Images/Thumb/thumbnail_4.jpg" alt="Moon hotel/base">
+							<div class="photo-overlay" onclick="openModal();currentSlide(4)">
 								<h3>Click to Enlarge</h3>
 								<p>Make your stay out of your WORLD!</p>
 							</div>
@@ -87,8 +87,8 @@
 					<!--PHOTO CONTAINER 5-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_5.jpg" alt="">
-							<div class="photo-overlay">
+							<img src="./Images/Thumb/thumbnail_5.jpg" alt="Astronaut">
+							<div class="photo-overlay" onclick="openModal();currentSlide(5)">
 								<h3>Click to Enlarge</h3>
 								<p>Make your stay out of your WORLD!</p>
 							</div>
@@ -99,8 +99,8 @@
 					<!--PHOTO CONTAINER 6-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_6.jpg" alt="">
-							<div class="photo-overlay">
+							<img src="./Images/Thumb/thumbnail_6.jpg" alt="Moon cabin">
+							<div class="photo-overlay" onclick="openModal();currentSlide(6)">
 								<h3>Click to Enlarge</h3>
 								<p>Make your stay out of your WORLD!</p>
 							</div>
@@ -111,8 +111,8 @@
 					<!--PHOTO CONTAINER 7-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_7.jpg" alt="">
-							<div class="photo-overlay">
+							<img src="./Images/Thumb/thumbnail_7.jpg" alt="Inside of moond cabin">
+							<div class="photo-overlay" onclick="openModal();currentSlide(7)">
 								<h3>Click to Enlarge</h3>
 								<p>Make your stay out of your WORLD!</p>
 							</div>
@@ -123,8 +123,8 @@
 					<!--PHOTO CONTAINER 8-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_8.jpg" alt="">
-							<div class="photo-overlay">
+							<img src="./Images/Thumb/thumbnail_8.jpg" alt="Astronaut with flag">
+							<div class="photo-overlay" onclick="openModal();currentSlide(8)">
 								<h3>Click to Enlarge</h3>
 								<p>Make your stay out of your WORLD!</p>
 							</div>
@@ -135,8 +135,8 @@
 					<!--PHOTO CONTAINER 9-->
 					<div class="photo-container">
 						<div class="photo">
-							<img src="./Images/Thumb/thumbnail_9.jpg" alt="">
-							<div class="photo-overlay">
+							<img src="./Images/Thumb/thumbnail_9.jpg" alt="Moon base with Earth in background">
+							<div class="photo-overlay" onclick="openModal();currentSlide(9)">
 								<h3>Click to Enlarge</h3>
 								<p>Make your stay out of your WORLD!</p>
 							</div>
@@ -148,6 +148,105 @@
 			</div>
 		</section>
 		<!--END GALLERY-->
+
+		<!--Begin of Modal-->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">>&times;</span>
+			<div class="mySlides">
+				<div class="numbertext">1 / 9</div>
+				<img src="./Images/Thumb/thumbnail_1.jpg"
+				width="100%" height="380" frameBorder="0" allowtransparency="true"
+				allow="encrypted-media">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">2 / 9</div>
+				<img src="./Images/Thumb/thumbnail_2.jpg"
+				width="100%" height="380" frameBorder="0" allowtransparency="true"
+				allow="encrypted-media">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">3 / 9</div>
+				<img src="./Images/Thumb/thumbnail_3.jpg"
+				width="100%" height="380" frameBorder="0" allowtransparency="true"
+				allow="encrypted-media">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">4 / 9</div>
+				<img src="./Images/Thumb/thumbnail_4.jpg"
+				width="100%" height="380" frameBorder="0" allowtransparency="true"
+				allow="encrypted-media">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">5 / 9</div>
+				<img src="./Images/Thumb/thumbnail_5.jpg"
+				width="100%" height="380" frameBorder="0" allowtransparency="true"
+				allow="encrypted-media">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">6 / 9</div>
+				<img src="./Images/Thumb/thumbnail_6.jpg"
+				width="100%" height="380" frameBorder="0" allowtransparency="true"
+				allow="encrypted-media">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">7 / 9</div>
+				<img src="./Images/Thumb/thumbnail_7.jpg"
+				width="100%" height="380" frameBorder="0" allowtransparency="true"
+				allow="encrypted-media">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">8 / 9</div>
+				<img src="./Images/Thumb/thumbnail_8.jpg"
+				width="100%" height="380" frameBorder="0" allowtransparency="true"
+				allow="encrypted-media">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">9 / 9</div>
+				<img src="./Images/Thumb/thumbnail_9.jpg"
+				width="100%" height="380" frameBorder="0" allowtransparency="true"
+				allow="encrypted-media">
+			</div>
+			<!--Next/Previous controls-->
+			<a class="prev" onclick="plusSlides(-1)">>&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">>&#10095;</a>
+
+			<!--Caption text-->
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
+
+			<!--Thumbnail image controls-->
+			<div class="row">
+				<div class="column">
+					<img src="./Images/Thumb/thumbnail_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" width="100" height="100">
+				</div>
+				<div class="column">
+					<img src="./Images/Thumb/thumbnail_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" width="100" height="100">
+				</div>
+				<div class="column">
+					<img src="./Images/Thumb/thumbnail_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" width="100" height="100">
+				</div>
+				<div class="column">
+					<img src="./Images/Thumb/thumbnail_4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" width="100" height="100">
+				</div>
+				<div class="column">
+					<img src="./Images/Thumb/thumbnail_5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow" width="100" height="100">
+				</div>
+				<div class="column">
+					<img src="./Images/Thumb/thumbnail_6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow" width="100" height="100">
+				</div>
+				<div class="column">
+					<img src="./Images/Thumb/thumbnail_7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow" width="100" height="100">
+				</div>
+				<div class="column">
+					<img src="./Images/Thumb/thumbnail_8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow" width="100" height="100">
+				</div>
+				<div class="column">
+					<img src="./Images/Thumb/thumbnail_9.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow" width="100" height="100">
+				</div>
+			</div>
+		</div>
+		<!--End of Modal-->
 
 		<!--RSVP-->
 		<section id="contact">
